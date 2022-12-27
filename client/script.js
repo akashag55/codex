@@ -84,7 +84,7 @@ const handleSubmit = async (e) => {
   // messageDiv.innerHTML = "..."
   loader(messageDiv);
 
-  const response = await fetch("http://codex-gwi9.vercel.app/", {
+  const response = await fetch("https://codex-gwi9.vercel.app/", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
